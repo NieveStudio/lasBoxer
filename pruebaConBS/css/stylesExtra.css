@@ -1,0 +1,716 @@
+@charset "UTF-8";
+
+/* Correcciones Extra */
+/* Navbar */
+.navbar-brand{
+color:#B8572C !important
+}
+#navbar-brand{
+color: #B8572C !important;
+}
+#theRealShoreline{
+color: #B8572C;
+}
+#theRealJaguRom{
+color: #B8572C; !important;
+font-family: math; !important;
+}
+#theRealPhotography {
+color: #B8572C; !important
+}
+#theRealPhotography :hover{
+text-decoration: underline !important;
+}
+#theRealJaguRomNavbar{
+font-family: math; !important;
+}
+#theRealAbout {
+font-family: Aleo; !important
+color: #B8572C;  !important
+}
+#theRealProjects{
+font-family: Aleo; !important
+color: #B8572C;  !important
+}
+#theRealContact{
+font-family: Aleo; !important;
+color: #B8572C;  !important;
+}
+#logoTranspMod{
+max-width: 12rem !important;
+}
+#buttonTest{
+color: black;
+font-weight: bold;
+background-color: #B8572C;
+font-weight: lighter;
+opacity: 0.8;
+border-radius: 50px;
+font-family: Aleo;
+max-height: 3rem;
+}
+#buttonTest:hover{
+background-color: transparent;
+color: white;
+font-weight: bold;
+}
+#firstID{
+text-decoration: none;
+}
+#firstID:hover {
+color: white !important;
+text-decoration: underline !important;
+}
+#submitText{
+color: cornsilk;
+font-size: 1.25rem;
+}
+#aboutText{
+color: cornsilk;
+font-size: 1.25rem;
+}
+
+/* FontAwesomeIcons */
+.fa-concierge-bell{
+color: #B8572C;
+}
+
+.fa-user{
+color: #B8572C;
+}
+
+/* Logo */
+#logoTranspMod{
+    height: 5rem !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #B8572C !important;
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.quienesSomos{
+    color: #B8572C;
+    font-size: 1.25rem;
+}
+
+/* Main header title */
+#imagen.inicio{
+    size: 1440px, 1963px;
+    background: url(.././imagenes/inicio.jpg) no-repeat center center fixed;
+    background-size: 1440px, 1963px;
+    width: auto;
+    height: auto
+    ;
+  }
+  
+  /* Quienes Somos */
+  .header-text{
+      font-family: Montserrat;
+      Font-style: Medium;
+      font-size: 24px;
+      Line height: 29px;
+      Line height: 100%;
+      Align: Left,
+      Vertical align: Top,
+  }
+  
+  .header-title_underline{
+  text-decoration-line: underline;
+  text-decoration-color: #b8572c ;
+  }
+  
+  
+  
+  .header-title-text{
+      font-family: Harriet;
+      font-family: Bold;
+      font-family: 36px;
+      text-align: Left;
+      vertical-align: Top;
+  }
+  
+  /* Carrousel */
+  #carouselExampleFade {
+    width: 100%; 
+    height: 100%;
+    background-color: #000;
+    align-content: center;
+  } */
+  
+  #carouselExampleControls{
+    width: 100%;
+    height: 60%;
+    background-color: #000;
+    align-content: center;
+  }
+  
+.black-text{
+    color: #000;
+} 
+.montserrat700{
+    font-family: Montserrat !important;
+    font-weight: 700 !important;
+}
+.montserrat600{
+    font-family: Montserrat !important;
+    font-weight: 600 !important;
+}
+.montserrat500{
+    font-family: Montserrat !important;
+    font-weight: 500 !important;
+}
+.montserrat400{
+    font-family: Montserrat !important;
+    font-weight: 400 !important;
+}
+.harriet{
+    font-family: Harriet !important;
+    font-weight: 700 !important;
+}
+.headerLogo{
+    width: 15rem !important;
+}
+
+/* Navbar */
+.navbar-brand{
+    color:#B8572C !important
+    }
+    #navbar-brand{
+    color: #B8572C !important;
+    }
+    #theRealShoreline{
+    color: #B8572C;
+    }
+    #theRealJaguRom{
+    color: #B8572C; !important;
+    font-family: math; !important;
+    }
+    #theRealPhotography {
+    color: #B8572C; !important
+    }
+    #theRealPhotography :hover{
+    text-decoration: underline !important;
+    }
+    #theRealJaguRomNavbar{
+    font-family: math; !important;
+    }
+    #theRealAbout {
+    font-family: Aleo; !important
+    color: #B8572C;  !important
+    }
+    #theRealProjects{
+    font-family: Aleo; !important
+    color: #B8572C;  !important
+    }
+    #theRealContact{
+    font-family: Aleo; !important;
+    color: #B8572C;  !important;
+    }
+    #buttonTest{
+    color: black;
+    font-weight: bold;
+    background-color: #B8572C;
+    font-weight: lighter;
+    opacity: 0.8;
+    border-radius: 50px;
+    font-family: Aleo;
+    max-height: 3rem;
+    }
+    #buttonTest:hover{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    }
+    #firstID{
+    text-decoration: none;
+    }
+    #firstID:hover {
+    color: white !important;
+    text-decoration: underline !important;
+    }
+    #submitText{
+    color: cornsilk;
+    font-size: 1.25rem;
+    }
+    #aboutText{
+    color: cornsilk;
+    font-size: 1.25rem;
+    }
+    
+    /* Carrousel */
+    .carousel-item {
+        /* position: initial; */
+        width: 85%;
+        height: 85%;
+        position: relative;
+        left: 8%;
+      }
+    .sizeImages{
+    }
+    /* FontAwesomeIcons */
+    .fa-concierge-bell{
+    color: #B8572C;
+    }
+    
+    .fa-user{
+    color: #B8572C;
+    }
+    
+    /* Logo */
+    #logoTranspMod{
+        height: 5rem !important;
+    }
+    
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: #B8572C !important;
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+
+    .contenedorJardin .carousel-control-prev-icon{
+      position: relative;
+      left: 40px;
+    }
+
+    .contenedorJardin .carousel-control-next-icon{
+      position: relative;
+      right: 40px;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 1024px) {
+      .contenedorJardin .carousel-control-next-icon{
+        bottom: 80px;
+      }
+      .contenedorJardin .carousel-control-prev-icon{
+        bottom: 80px;
+      }
+    }
+    
+    .quienesSomos{
+        color: #B8572C;
+        font-size: 1.25rem;
+    }
+    
+    /* Main header title */
+    #imagen.inicio{
+        size: 1440px, 1963px;
+        background: url(.././imagenes/inicio.jpg) no-repeat center center fixed;
+        background-size: 1440px, 1963px;
+        width: auto;
+        height: auto
+        ;
+      }
+      
+      /* Quienes Somos */
+      .header-text{
+          font-family: Montserrat;
+          Font-style: Medium;
+          font-size: 24px;
+          Line height: 29px;
+          Line height: 100%;
+          Align: Left,
+          Vertical align: Top,
+      }
+      
+      .header-title_underline{
+      text-decoration-line: underline;
+      text-decoration-color: #b8572c ;
+      }
+      
+      
+      
+      .header-title-text{
+          font-family: Harriet;
+          font-family: Bold;
+          font-family: 36px;
+          text-align: Left;
+          vertical-align: Top;
+      }
+      
+      /* Carrousel */
+      #carouselExampleFade {
+        width: 100%; 
+        height: 100%;
+        background-color: transparent;
+        align-content: center;
+      }
+      
+      #carouselExampleControls{
+        width: 100%;
+        height: 60%;
+        background-color: transparent;
+        align-content: center;
+      }
+      
+    .black-text{
+        color: #000;
+    } 
+    .montserrat700{
+        font-family: Montserrat !important;
+        font-weight: 700 !important;
+    }
+    .montserrat600{
+        font-family: Montserrat !important;
+        font-weight: 600 !important;
+    }
+    .montserrat500{
+        font-family: Montserrat !important;
+        font-weight: 500 !important;
+    }
+    .montserrat400{
+        font-family: Montserrat !important;
+        font-weight: 400 !important;
+    }
+    .harriet{
+        font-family: Harriet !important;
+        font-weight: 700 !important;
+    }
+    
+    .contenedorJardin h1 {
+      text-decoration: underline;
+      text-underline-position: under;
+      text-decoration-color: #b8572c; }
+    
+    .contenedorJardin h2 {
+      text-decoration: underline;
+      text-underline-position: under;
+      text-decoration-color: #b8572c; }
+    
+    .contenedorContacto h1 {
+      text-decoration: underline;
+      text-underline-position: under;
+      text-decoration-color: #b8572c; }
+    
+    .contenedorContacto form input {
+      border: 1px solid #bcb84d; }
+    
+    .contenedorContacto form textarea {
+      border: 1px solid #bcb84d; }
+    
+    .contenedorContacto form .boton {
+      background-color: #bcb84d; }
+    
+    footer {
+      background-color: #b8572c;
+      color: white; }
+      footer a {
+        color: white; }
+        footer a:hover {
+          color: white; }
+    
+    footer {
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px; }
+      footer h5 {
+        font-size: 30px; }
+    
+    .contenedorJardin h1 {
+      font-family: "Harriet Text", sans-serif;
+      font-size: 30px; }
+    
+    .contenedorJardin h2 {
+      font-family: "Harriet Text", sans-serif;
+      font-size: 30px; }
+    
+    .contenedorJardin p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px; }
+    
+    .contenedorContacto h1 {
+      font-family: "Harriet Text", sans-serif;
+      font-size: 30px; }
+    
+    .contenedorContacto p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 17px; }
+    
+    .contenedorContacto form {
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px; }
+    
+    .contenedorJardin h1 {
+      text-align: center;
+      margin-top: 25px;
+      margin-right: 0px;
+      margin-bottom: 25px;
+      margin-left: 0px; }
+    
+    .contenedorJardin h2 {
+      text-align: left;
+      margin-top: 25px;
+      margin-right: 0px;
+      margin-bottom: 25px;
+      margin-left: 0px; }
+    
+    .contenedorJardin .carousel {
+      margin-top: 20px;
+      margin-right: 0px;
+      margin-bottom: 40px;
+      margin-left: 0px; }
+    
+    .contenedorContacto h1 {
+      text-align: center;
+      margin-top: 25px;
+      margin-right: 0px;
+      margin-bottom: 25px;
+      margin-left: 0px; }
+    
+    .contenedorContacto form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-right: 0px;
+      margin-bottom: 20px;
+      margin-left: 0px; }
+      .contenedorContacto form input {
+        border-radius: 5px;
+        margin-top: 7px;
+        margin-right: 0px;
+        margin-bottom: 7px;
+        margin-left: 0px; }
+      .contenedorContacto form .boton {
+        border: none;
+        border-radius: 5px;
+        width: 40%;
+        height: 35px;
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px; }
+      .contenedorContacto form textarea {
+        margin-top: 5px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+        border-radius: 5px;
+        padding: 5px; }
+    
+    .contenedorContacto--nombre {
+      display: flex;
+      flex-direction: column; }
+      .contenedorContacto--nombre input {
+        height: 30px;
+        padding: 5px; }
+    
+    .contenedorContacto--apellido {
+      display: flex;
+      flex-direction: column; }
+      .contenedorContacto--apellido input {
+        height: 30px;
+        padding: 5px; }
+    
+    .contenedorContacto--celular {
+      display: flex;
+      flex-direction: column; }
+      .contenedorContacto--celular input {
+        height: 30px;
+        padding: 5px; }
+    
+    .contenedorContacto--correo {
+      display: flex;
+      flex-direction: column; }
+      .contenedorContacto--correo input {
+        height: 30px;
+        padding: 5px; }
+    
+    footer {
+      width: 100%;
+      height: auto; }
+      footer .row {
+        padding-top: 25px;
+        padding-right: 0px;
+        padding-bottom: 25px;
+        padding-left: 0px; }
+        footer .row div {
+          margin-top: 10px;
+          margin-right: auto;
+          margin-bottom: 10px;
+          margin-left: auto; }
+      footer li {
+        margin: 10px; }
+      footer .whatsapp {
+        display: flex; }
+        footer .whatsapp .whatsappColumn {
+          display: flex;
+          flex-direction: column;
+          margin-left: 5px; }
+    
+    .mapaFooter {
+      text-align: center; }
+      .mapaFooter iframe {
+        width: 75%;
+        height: 350px; }
+    
+    .mediaFooter {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      footer .row {
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-left: 0px; }
+        footer .row div {
+          margin-top: 5px;
+          margin-right: auto;
+          margin-bottom: 5px;
+          margin-left: auto; }
+      footer .mapaFooter iframe {
+        width: 350px;
+        height: 250px; }
+      .contenedorContacto--nombre {
+        display: flex;
+        flex-direction: column; }
+      .contenedorContacto--apellido {
+        display: flex;
+        flex-direction: column; } }
+    
+    @media only screen and (min-width: 768px) {
+      .contenedorContacto--columnas {
+        display: flex;
+        flex-direction: row; }
+      .contenedorContacto--nombre {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-top: 0px;
+        padding-right: 50px;
+        padding-bottom: 0px;
+        padding-left: 0px; }
+      .contenedorContacto--apellido {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-top: 0px;
+        padding-right: 50px;
+        padding-bottom: 0px;
+        padding-left: 0px; }
+      .contenedorContacto--celular {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-top: 0px;
+        padding-right: 50px;
+        padding-bottom: 0px;
+        padding-left: 0px; }
+      .contenedorContacto--correo {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-top: 0px;
+        padding-right: 50px;
+        padding-bottom: 0px;
+        padding-left: 0px; }
+      .contenedorContacto--apellido {
+        position: relative;
+        left: 50px; }
+      .contenedorContacto--correo {
+        position: relative;
+        left: 50px; }
+      .contenedorContacto button {
+        width: 100%; } }
+    
+    * {
+      margin: 0px;
+      padding: 0px; }
+    
+    /* Saco viñetas */
+    footer ul li {
+      list-style-type: none; }
+    
+    footer ul a {
+      text-decoration: none; }
+    
+    .margenTitulo{
+      height: 80px;
+    }
+
+.whatsappImg{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1;
+}
+
+.whatsappImg img{
+  width: 80px;
+}
+
+.centrarImagen{
+  display: block;
+  margin: auto;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-caption{padding-bottom:80px;}
+
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity:0.6;
+}
+
+/* Carrousels */
+.containerShara img{
+  width: 85%;
+  height: 80%;
+  position: relative;
+  left: 50px;
+}
+
+.containerMiranda img{
+  width: 85%;
+  height: 80%;
+  position: relative;
+  left: 55px;
+}
+
+.containerFiona img{
+  width: 85%;
+  height: 80%;
+  position: relative;
+  left: 65px;
+}
+
+.containerJazmin img{
+  width: 85%;
+  height: 80%;
+  position: relative;
+  left: 55px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+  .containerShara img{
+    position: relative;
+    left: 20px;
+  }
+  .containerMiranda img{
+    position: relative;
+    left: 25px;
+  }
+  .containerFiona img{
+    position: relative;
+    left: 40px;
+  }
+  .containerJazmin img{
+    position: relative;
+    left: 25px;
+  }
+}

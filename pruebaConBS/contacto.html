@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Las Boxer | Contacto</title>
+
+        <!-- Iconos font awesome -->
+        <script src="https://kit.fontawesome.com/105bdc8025.js" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- CSS (includes Bootstrap)-->
+        <link href="../pruebaConBS/css/styles.css" rel="stylesheet" />
+        <link href="../pruebaConBS/css/stylesExtra.css" rel="stylesheet" />
+
+        <!-- Fuentes -->
+        <link href="http://fonts.cdnfonts.com/css/harriet-text" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+                <div class="container px-2 px-lg-1" >
+                <a href="../index.html"><img src="../imagenes/logoLasBoxer.png" id="logoTranspMod"  alt="Main page logo"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto" id="navbarWidth"> 
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle montserrat600" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cabañas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item montserrat600" href="cabFiona.html">Fiona</a></li>
+                            <li><a class="dropdown-item montserrat600" href="cabJazmin.html">Jazmin</a></li>
+                            <li><a class="dropdown-item montserrat600" href="cabMiranda.html">Miranda</a></li>
+                            <li><a class="dropdown-item montserrat600" href="cabShara.html">Shara</a></li>
+                            </ul>
+                        <li class="nav-item  montserrat600"><a class="nav-link" href="jardinYPiscinas.html" id="">Jardín y Piscinas</a></li>    
+                        <li class="nav-item  montserrat600"><a class="nav-link" href="quienesSomos.html" id="">Quienes somos</a></li> 
+                        <li class="nav-item  montserrat600"><a class="nav-link" href="contacto.html" id="t">Contacto</a></li> 
+                    </ul>
+                </div>
+            </div>
+            </nav>
+        </header>
+
+        <!-- icono de whatsapp -->
+<div class="whatsappImg">
+    <a href="https://api.whatsapp.com/send?phone=542392484300&app=facebook&entry_point=page_cta&fbclid=IwAR2lnvqKDmvIYF7DhfNXUA1tc04ejW-ndrSFY0FEOy_YNPCE7OAQ8-Ha45s" target="_blank">
+        <img src="../imagenes/iconowhatsapp.png" alt="icono whatsapp">
+    </a>
+</div>
+
+
+        <div>
+            <div class="container contenedorContacto">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12">
+                        <div class="margenTitulo"></div>
+                        <h1><b>Contacto</b></h1>
+                        <p>Para ponerte en contacto con nosotros, podes comunicarte a los números <b>2392 484300 / 2392 484301</b>. También podes llenar el siguiente formulario y te contestaremos a la brevedad.</p>
+                        <form method="post" action="enviar.php">
+                            <div class="contenedorContacto--columnas">
+                                <div class="contenedorContacto--nombre">
+                                    <label>Nombre:</label>
+                                    <input type="text" id="nombre" name="nombre" required="required">
+                                </div>
+                                <div class="contenedorContacto--apellido">
+                                    <label >Apellido:</label>
+                                    <input type="text" id="Apellido" name="apellido" required="required">
+                                </div>
+                            </div>
+                            <div class="contenedorContacto--columnas">
+                                <div class="contenedorContacto--celular">
+                                    <label>Celular:</label>
+                                    <input type="text" id="celular" name="celular" required="required">
+                                </div>
+                                <div class="contenedorContacto--correo">
+                                    <label>Correo:</label>
+                                    <input type="text" id="correo" name="correo"required="required">
+                                </div>
+                            </div>
+                            <label>Consulta:</label>
+                            <textarea name="mensaje" rows="10" cols="50"></textarea>
+                            <button type="submit" class="boton">ENVIAR CONSULTA</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+                    <h5>
+                        Cabañas Las Boxer
+                    </h5>
+                    <p>
+                        Trenque Lauquen, Provincia de Buenos Aires, Argentina
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12 mediaFooter">
+                    <ul>
+                        <li>
+                            <i class="fab fa-facebook-square"></i>
+                            <a href="https://www.facebook.com/HospedajeLasBoxer" target="_blank">
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                            <a href="https://instagram.com/cabanaslasboxer?utm_medium=copy_link" target="_blank">
+                                Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <div class="whatsapp">
+                                <p><i class="fab fa-whatsapp"></i>Whatsapp:</p>
+                                <p class="whatsappColumn"><a href="https://api.whatsapp.com/send?phone=542392484300&app=facebook&entry_point=page_cta&fbclid=IwAR2lnvqKDmvIYF7DhfNXUA1tc04ejW-ndrSFY0FEOy_YNPCE7OAQ8-Ha45s" target="_blank">2392 484300
+                                </a>
+                                <a href="https://api.whatsapp.com/send?phone=542392484301&app=facebook&entry_point=page_cta&fbclid=IwAR2lnvqKDmvIYF7DhfNXUA1tc04ejW-ndrSFY0FEOy_YNPCE7OAQ8-Ha45s" target="_blank">2392 484301
+                                </a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12 mapaFooter">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.6154493865033!2d-62.72798988496232!3d-36.00526164049946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c17931fd517015%3A0x37ad05c36b05c5cd!2sCaba%C3%B1as%20Las%20Boxer!5e0!3m2!1ses-419!2sar!4v1635976291094!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        -->
+    </body>
+</html>
